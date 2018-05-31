@@ -1,0 +1,11 @@
+C:\Users\dewa\Documents\DotNet_Workspace\ExploreCalifornia\ExploreCalifornia\bin\Debug\netcoreapp2.0\ExploreCalifornia.deps.json
+C:\Users\dewa\Documents\DotNet_Workspace\ExploreCalifornia\ExploreCalifornia\bin\Debug\netcoreapp2.0\ExploreCalifornia.runtimeconfig.json
+C:\Users\dewa\Documents\DotNet_Workspace\ExploreCalifornia\ExploreCalifornia\bin\Debug\netcoreapp2.0\ExploreCalifornia.runtimeconfig.dev.json
+C:\Users\dewa\Documents\DotNet_Workspace\ExploreCalifornia\ExploreCalifornia\bin\Debug\netcoreapp2.0\ExploreCalifornia.dll
+C:\Users\dewa\Documents\DotNet_Workspace\ExploreCalifornia\ExploreCalifornia\bin\Debug\netcoreapp2.0\ExploreCalifornia.pdb
+C:\Users\dewa\Documents\DotNet_Workspace\ExploreCalifornia\ExploreCalifornia\obj\Debug\netcoreapp2.0\ExploreCalifornia.csproj.CoreCompileInputs.cache
+C:\Users\dewa\Documents\DotNet_Workspace\ExploreCalifornia\ExploreCalifornia\obj\Debug\netcoreapp2.0\ExploreCalifornia.AssemblyInfoInputs.cache
+C:\Users\dewa\Documents\DotNet_Workspace\ExploreCalifornia\ExploreCalifornia\obj\Debug\netcoreapp2.0\ExploreCalifornia.AssemblyInfo.cs
+C:\Users\dewa\Documents\DotNet_Workspace\ExploreCalifornia\ExploreCalifornia\obj\Debug\netcoreapp2.0\ExploreCalifornia.dll
+C:\Users\dewa\Documents\DotNet_Workspace\ExploreCalifornia\ExploreCalifornia\obj\Debug\netcoreapp2.0\ExploreCalifornia.pdb
+C:\Users\dewa\Documents\DotNet_Workspace\ExploreCalifornia\ExploreCalifornia\obj\Debug\netcoreapp2.0\ExploreCalifornia.csprojAssemblyReference.cache
