@@ -13257,11 +13257,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dewa\\Documents\\DotNet_Workspace\\ExploreCalifornia\\ExploreCalifornia\\ExploreCalifornia.csproj",
+      "projectUniqueName": "C:\\Users\\dewa\\Documents\\GitHub\\ASP.NET-Core-MVC-WebApp---Explore-California\\ExploreCalifornia\\ExploreCalifornia.csproj",
       "projectName": "ExploreCalifornia",
-      "projectPath": "C:\\Users\\dewa\\Documents\\DotNet_Workspace\\ExploreCalifornia\\ExploreCalifornia\\ExploreCalifornia.csproj",
+      "projectPath": "C:\\Users\\dewa\\Documents\\GitHub\\ASP.NET-Core-MVC-WebApp---Explore-California\\ExploreCalifornia\\ExploreCalifornia.csproj",
       "packagesPath": "C:\\Users\\dewa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dewa\\Documents\\DotNet_Workspace\\ExploreCalifornia\\ExploreCalifornia\\obj\\",
+      "outputPath": "C:\\Users\\dewa\\Documents\\GitHub\\ASP.NET-Core-MVC-WebApp---Explore-California\\ExploreCalifornia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

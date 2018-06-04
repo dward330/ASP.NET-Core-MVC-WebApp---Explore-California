@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ExploreCalifornia.DAL;
 using ExploreCalifornia.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,48 +10,60 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ExploreCalifornia.Controllers
 {
+    [Route("Blog")]
     public class BlogController: Controller
     {
+        private readonly BlogDataContext _blogDataContext;
+
+        public BlogController(BlogDataContext blogDataContext)
+        {
+            _blogDataContext = blogDataContext;
+        }
+
         // GET: /<controller>/
+        [Route("")]
         public IActionResult Index()
         {
-            var posts = new Post[] 
-            {
-                new Post
-                {
-                    Title = "DKW first Blog Post",
-                    Posted = DateTime.Now,
-                    Author = "Derrick Ward",
-                    Body = "This is a wonderful blog post, don't you think?"
-                },
-                new Post
-                {
-                    Title = "DKW Second Blog Post",
-                    Posted = DateTime.Now,
-                    Author = "Kayla Ward",
-                    Body = "Kayla's blog post is the best, don't you think?"
-                }
-        };
+            var posts = _blogDataContext.Posts.ToArray();
 
             return View(posts);
         }
 
+        [Route("ContentResult")]
         public IActionResult ContentResult()
         {
             return new ContentResult() { Content = "Welcome to the Blog Controller!" };
         }
 
-        public IActionResult Post(string id)
+        [Route("ShowPost/{key?}")]
+        public IActionResult ShowPost(string key)
         {
-            var post = new Post
-            {
-                Title = "DKW Blog Post",
-                Posted = DateTime.Now,
-                Author = "Derrick Ward",
-                Body = "This is a wonderful blog post, don't you think?"
-            };
+            var post = _blogDataContext.Posts.FirstOrDefault(x => string.Equals(x.key, key, StringComparison.CurrentCultureIgnoreCase));
 
             return View(post);
+        }
+
+        [HttpGet, Route("Create")]
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost, Route("Create")]
+        public IActionResult Create(Post post)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+
+            post.Author = User.Identity.Name;
+            post.Posted = DateTime.Now;
+
+            _blogDataContext.Posts.Add(post);
+            _blogDataContext.SaveChanges();
+
+            return View("index", _blogDataContext.Posts.ToArray());
         }
     }
 }

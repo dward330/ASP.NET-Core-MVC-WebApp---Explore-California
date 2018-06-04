@@ -2,11 +2,31 @@
 @model ExploreCalifornia.Models.Post
 
 <article class="blog-post">
-    <h1>@Model.Title</h1>
+    <h1><a href="@(Url.Action("ShowPost","Blog", new { key = Model.key }))" title="@(Model.Title)">@Model.Title</a></h1>
     <div class="details">
         Posted <span>@Format.AsReadableDate(Model.Posted)</span> by <span>@Model.Author</span>
     </div>
     <div class="content">
         @Model.Body
+    </div>
+
+    <a href="#" class="show-comments">Show Comments</a>
+    <div class="comments-container hide">
+        <h3>Coments</h3>
+        <div class="comments">
+
+        </div>
+        <hr />
+        <div>
+            <a href="#" class="add-comment">Add a comment</a>
+            <div class="new-comment hide">
+                <form role="form">
+                    <div class="form-group">
+                        <textarea name="Body" class="new-comment form-control" placeholder="Enter a Comment"></textarea>
+                        <button type="submit" class="btn btn-default">Create Comment</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
 </article>

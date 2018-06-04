@@ -1,4 +1,9 @@
 ﻿{
+  "ConnectionStrings": {
+    "BlogDataContext": "Server=ZEROCOOL-DW;Database=DerrickBlog;Trusted_Connection=True",
+    "SpecialDataContext": "Server=ZEROCOOL-DW;Database=DerrickBlog_Special;Trusted_Connection=True",
+    "IdentityDataContext": "Server=ZEROCOOL-DW;Database=DerrickBlog_Identity;Trusted_Connection=True"
+  },
   "FeatureToggles": {
     "EnableDeveloperExceptions": true
   }

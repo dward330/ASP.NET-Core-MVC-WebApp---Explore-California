@@ -1,4 +1,5 @@
-﻿using ExploreCalifornia.Models;
+﻿using ExploreCalifornia.DAL;
+using ExploreCalifornia.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
