@@ -1,0 +1,10 @@
+C:\Users\dewa\Documents\GitHub\ASP.NET-Core-MVC-WebApp---Explore-California\WebAndLoadTests\bin\Debug\WebAndLoadTests.dll
+C:\Users\dewa\Documents\GitHub\ASP.NET-Core-MVC-WebApp---Explore-California\WebAndLoadTests\bin\Debug\WebAndLoadTests.pdb
+C:\Users\dewa\Documents\GitHub\ASP.NET-Core-MVC-WebApp---Explore-California\WebAndLoadTests\bin\Debug\Microsoft.VisualStudio.QualityTools.WebTestFramework.dll
+C:\Users\dewa\Documents\GitHub\ASP.NET-Core-MVC-WebApp---Explore-California\WebAndLoadTests\obj\Debug\WebAndLoadTests.csprojAssemblyReference.cache
+C:\Users\dewa\Documents\GitHub\ASP.NET-Core-MVC-WebApp---Explore-California\WebAndLoadTests\obj\Debug\WebAndLoadTests.csproj.CoreCompileInputs.cache
+C:\Users\dewa\Documents\GitHub\ASP.NET-Core-MVC-WebApp---Explore-California\WebAndLoadTests\obj\Debug\WebAndLoadTests.csproj.CopyComplete
+C:\Users\dewa\Documents\GitHub\ASP.NET-Core-MVC-WebApp---Explore-California\WebAndLoadTests\obj\Debug\WebAndLoadTests.dll
+C:\Users\dewa\Documents\GitHub\ASP.NET-Core-MVC-WebApp---Explore-California\WebAndLoadTests\obj\Debug\WebAndLoadTests.pdb
+C:\Users\dewa\Documents\GitHub\ASP.NET-Core-MVC-WebApp---Explore-California\WebAndLoadTests\bin\Debug\HomePage_GettingSpecials.webtest
+C:\Users\dewa\Documents\GitHub\ASP.NET-Core-MVC-WebApp---Explore-California\WebAndLoadTests\bin\Debug\LoadTest1.loadtest
